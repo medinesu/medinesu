@@ -15,6 +15,9 @@
   <a href="https://linkedin.com/in/medine-sultan-efe" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-16213E?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn" />
   </a>
+  <a href="https://medinesultan.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Website-16213E?style=for-the-badge&logo=google-chrome&logoColor=A855F7" alt="Website" />
+  </a>
   <a href="mailto:efemedinesultan@gmail.com">
     <img src="https://img.shields.io/badge/Email-16213E?style=for-the-badge&logo=gmail&logoColor=D946EF" alt="Email" />
   </a>
