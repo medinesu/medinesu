@@ -59,16 +59,16 @@ I am a second-year **Computer Engineering** student dedicated to continuous grow
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=medinesu&show_icons=true&bg_color=16213E&title_color=D946EF&text_color=A3B8CC&icon_color=00E5FF&hide_border=true&v=1" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=medinesu&show_icons=true&bg_color=16213E&title_color=00E5FF&text_color=A3B8CC&layout=compact&hide_border=true&v=1" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=medinesu&amp;show_icons=true&amp;bg_color=16213E&amp;title_color=D946EF&amp;text_color=A3B8CC&amp;icon_color=00E5FF&amp;hide_border=true&amp;v=1" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=medinesu&amp;show_icons=true&amp;bg_color=16213E&amp;title_color=00E5FF&amp;text_color=A3B8CC&amp;layout=compact&amp;hide_border=true&amp;v=1" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=medinesu&bg_color=16213E&color=00E5FF&line=A855F7&point=ffffff&hide_border=true" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=medinesu&amp;bg_color=16213E&amp;color=00E5FF&amp;line=A855F7&amp;point=ffffff&amp;hide_border=true" width="100%" alt="Activity Graph" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=medinesu&theme=dark&background=16213E&ring=A855F7&fire=00E5FF&currStreakNum=A3B8CC&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=medinesu&amp;theme=dark&amp;background=16213E&amp;ring=A855F7&amp;fire=00E5FF&amp;currStreakNum=A3B8CC&amp;hide_border=true" alt="GitHub Streak" />
 </p>
 
 <div align="center">
