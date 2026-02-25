@@ -59,8 +59,8 @@ I am a second-year **Computer Engineering** student dedicated to continuous grow
 ### 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=medinesu&show_icons=true&bg_color=16213E&title_color=D946EF&text_color=A3B8CC&icon_color=00E5FF&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=medinesu&show_icons=true&bg_color=16213E&title_color=00E5FF&text_color=A3B8CC&layout=compact&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=medinesu&show_icons=true&bg_color=16213E&title_color=D946EF&text_color=A3B8CC&icon_color=00E5FF&hide_border=true&v=1" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=medinesu&show_icons=true&bg_color=16213E&title_color=00E5FF&text_color=A3B8CC&layout=compact&hide_border=true&v=1" alt="Top Languages" />
 </p>
 
 <p align="center">
