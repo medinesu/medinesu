@@ -1,46 +1,77 @@
-<h1 align="center">Merhaba 👋, ben Medine Sultan</h1>
-<h3 align="center">İskenderun Teknik Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Yazılım geliştirme, web teknolojileri ve mobil uygulama geliştirme konularıyla ilgileniyorum.</h3> Yeni teknolojileri öğrenmeye ve gerçek dünya projeleri geliştirmeye tutkulu.</h3>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Starry Night Banner">
+</div>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=medinesu&label=Profile%20views&color=0e75b6&style=flat" alt="medinesu" /> </p>
+<div align="center">
+  <br>
+  <img src="./header.svg" alt="Hi, I am Medine Sultan" />
+  <br><br>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=600&lines=Computer+Engineering+Student;Backend+and+AI+Enthusiast;Building+Scalable+Solutions" alt="Typing Title" />
+  </a>
+</div>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=medinesu" alt="medinesu" /></a> </p>
-
-- 🔭 Şu anda [web sitesi](http://localhost:5173/) üzerinde çalışıyorum
-
-- 🌱 Şu anda **JavaScript, Bootstrap, React** öğreniyorum
-
-- 💬 Bana **Java, C, Python ve HTML** hakkında soru sorabilirsiniz. CSS**
-
-- 📫 Bana nasıl ulaşabilirsiniz: **efemedinesultan@gmail.com**
-
-- ⚡ İlginç bilgi: **Sanırım meraklı ve araştırmacı biriyim.**
-
-<h3 align="left">Benimle bağlantı kurun:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/medine sultan efe" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="medine sultan efe" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://linkedin.com/in/medine-sultan-efe" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-16213E?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn" />
+  </a>
+  <a href="mailto:efemedinesultan@gmail.com">
+    <img src="https://img.shields.io/badge/Email-16213E?style=for-the-badge&logo=gmail&logoColor=D946EF" alt="Email" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=medinesu&label=Profile%20Views&color=A855F7&style=for-the-badge" alt="Profile Views" />
 </p>
 
-<h3 align="left">Diller ve Araçlar:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img <a href="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="5" alt="Neon Gradient Line">
+  <br>
+</div>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=medinesu&show_icons=true&locale=en&layout=compact" alt="medinesu" /></p><p> <img align="center" src="https://github-readme-stats.vercel.app/api?username=medinesu&show_icons=true&theme=highcontrast&title_color=8e1797&locale=en
+### 🚀 About Me
 
-" alt="medinesu" /></p>
+I am a second-year **Computer Engineering** student dedicated to continuous growth in software development. With a strong passion for **Backend Development** and **Artificial Intelligence**, I enjoy transforming complex problems into elegant, scalable solutions.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=medinesu&" alt="medinesu" /></p>
-## Hi there 👋
+- 💻 Developing core engineering projects using **Java, Python, and C/C++**.
+- 🌐 Building modern web applications with **React, JavaScript, HTML, and CSS**.
+- 🗄️ Designing and managing robust databases with **MySQL and MSSQL**.
+- 🎯 **Current Goal:** Enhancing my algorithm and data structure skills to architect high-performance systems.
 
-<!--
-**medinesu/medinesu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 🛠️ Tech Stack & Expertise
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%"><b>🌐 Frontend Development</b></td>
+      <td align="center" width="33%"><b>⚙️ Backend & Languages</b></td>
+      <td align="center" width="33%"><b>🗄️ Databases & Tools</b></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,react,bootstrap&perline=3" alt="Frontend Skills" /></a></td>
+      <td align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,python,c,cpp&perline=3" alt="Backend Skills" /></a></td>
+      <td align="center"><a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=mysql,git,github&perline=3" alt="Databases and Tools" /></a></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+### 📊 GitHub Analytics
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=medinesu&show_icons=true&bg_color=16213E&title_color=D946EF&text_color=A3B8CC&icon_color=00E5FF&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=medinesu&show_icons=true&bg_color=16213E&title_color=00E5FF&text_color=A3B8CC&layout=compact&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=medinesu&bg_color=16213E&color=00E5FF&line=A855F7&point=ffffff&hide_border=true" width="100%" alt="Activity Graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=medinesu&theme=dark&background=16213E&ring=A855F7&fire=00E5FF&currStreakNum=A3B8CC&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<div align="center">
+  <br>
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="5" alt="Neon Gradient Line">
+</div>
