@@ -12,7 +12,7 @@
 </div>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/medine-sultan-e-8a41133a1/" target="_blank">
+  <a href="www.linkedin.com/in/medine-sultan-e-8a41133a1" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-16213E?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn" />
   </a>
   <a href="mailto:efemedinesultan@gmail.com">
