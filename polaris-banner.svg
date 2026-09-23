@@ -1,87 +1,80 @@
 <svg width="1200" height="460" viewBox="0 0 1200 460" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <!-- Derin Uzay Boşluğu -->
+    <clipPath id="canvasClip">
+      <rect width="1200" height="460" rx="16" />
+    </clipPath>
+
+    <!-- Çok Daha Derin, Siyah ağırlıklı Uzay Boşluğu -->
     <linearGradient id="deepCosmos" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#010208" />
-      <stop offset="45%" stop-color="#040b1a" />
-      <stop offset="100%" stop-color="#071026" />
+      <stop offset="0%" stop-color="#010206" />
+      <stop offset="60%" stop-color="#030814" />
+      <stop offset="100%" stop-color="#050e24" />
     </linearGradient>
 
-    <!-- Pırlanta / Keskin Yıldız Şablonu (Emoji Tarzı) -->
+    <!-- AURORA (KUZEY IŞIKLARI) ŞERİTLERİ İÇİN GRADYANLAR -->
+    <linearGradient id="auroraRibbon1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#00b8d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="auroraRibbon2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#14b8a6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="auroraHeavy" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="50" />
+    </filter>
+    <filter id="auroraSharp" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="25" />
+    </filter>
+
+    <!-- KESKİN 4 KÖŞELİ YILDIZ ŞABLONU (Senin Görselindeki Gibi) -->
     <g id="sparkleStar">
       <path d="M 0,-14 Q 0,0 14,0 Q 0,0 0,14 Q 0,0 -14,0 Q 0,0 0,-14 Z" fill="#ffffff" />
       <circle cx="0" cy="0" r="1.5" fill="#ffffff" />
     </g>
-
     <g id="sparkleStarCyan">
-      <path d="M 0,-12 Q 0,0 12,0 Q 0,0 0,12 Q 0,0 -12,0 Q 0,0 0,-12 Z" fill="#cffafe" />
+      <path d="M 0,-16 Q 0,0 16,0 Q 0,0 0,16 Q 0,0 -16,0 Q 0,0 0,-16 Z" fill="#cffafe" />
+      <circle cx="0" cy="0" r="2" fill="#ffffff" />
     </g>
 
-    <!-- Aurora Işıkları (Baskın Su Yeşili / Cyan ve Hafif Lila) -->
-    <filter id="auroraBlur" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="60" />
-    </filter>
-    
-    <linearGradient id="auroraCyan" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.45" />
-      <stop offset="40%" stop-color="#00f5d4" stop-opacity="0.25" />
-      <stop offset="80%" stop-color="#00b8d4" stop-opacity="0.10" />
+    <!-- Kayan Yıldız -->
+    <linearGradient id="shootingStarTail" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="40%" stop-color="#00ffff" stop-opacity="0.6" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </linearGradient>
 
-    <linearGradient id="auroraAccent" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00ffcc" stop-opacity="0.30" />
-      <stop offset="60%" stop-color="#b14bf4" stop-opacity="0.15" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </linearGradient>
-
-    <!-- Ay'ı Üç Boyutlu ve Organik Yapan Gradyanlar -->
-    <filter id="moonCraterBlur">
-      <feGaussianBlur stdDeviation="4" />
-    </filter>
-    
-    <!-- Ay'ın Küresel Hacmi (Gölge Efekti) -->
-    <radialGradient id="moonVolume" cx="30%" cy="30%" r="70%">
+    <!-- GERÇEKÇİ AY GRADYANLARI -->
+    <filter id="moonCraterBlur"><feGaussianBlur stdDeviation="3.5" /></filter>
+    <radialGradient id="moonVolume" cx="35%" cy="35%" r="65%">
       <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="50%" stop-color="#e2e8f0" />
+      <stop offset="45%" stop-color="#e2e8f0" />
       <stop offset="85%" stop-color="#64748b" />
       <stop offset="100%" stop-color="#1e293b" />
     </radialGradient>
-
-    <radialGradient id="moonGlow" cx="45%" cy="45%" r="60%">
-      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.8" />
-      <stop offset="35%" stop-color="#7dd3fc" stop-opacity="0.25" />
-      <stop offset="70%" stop-color="#0ea5e9" stop-opacity="0.05" />
+    <radialGradient id="moonGlow" cx="45%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.85" />
+      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.2" />
       <stop offset="100%" stop-color="#000000" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Kayan Yıldız (Shooting Star) İzi -->
-    <linearGradient id="shootingStarTail" x1="100%" y1="0%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </linearGradient>
-
-    <!-- Polaris Merkez Gradyanları -->
+    <!-- POLARIS GRADYANLARI (ZARİF KÜÇÜK VERSİYON İÇİN) -->
     <linearGradient id="sharpSilver" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="50%" stop-color="#E2E8F0"/>
       <stop offset="100%" stop-color="#94A3B8"/>
     </linearGradient>
-    
     <filter id="hyperBloom" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="b1"/>
-      <feGaussianBlur stdDeviation="8" result="b2"/>
-      <feGaussianBlur stdDeviation="20" result="b3"/>
+      <feGaussianBlur stdDeviation="1.5" result="b1"/>
+      <feGaussianBlur stdDeviation="5" result="b2"/>
+      <feGaussianBlur stdDeviation="12" result="b3"/>
       <feMerge>
-        <feMergeNode in="b3"/>
-        <feMergeNode in="b2"/>
-        <feMergeNode in="b1"/>
-        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="b3"/><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <!-- Slogan Işıltısı -->
     <linearGradient id="sloganGlow" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"><animate attributeName="stop-color" values="#38bdf8;#67e8f9;#38bdf8" dur="5s" repeatCount="indefinite" /></stop>
       <stop offset="50%" stop-color="#ffffff"><animate attributeName="stop-color" values="#ffffff;#e0f2fe;#ffffff" dur="5s" repeatCount="indefinite" /></stop>
@@ -89,147 +82,165 @@
     </linearGradient>
   </defs>
 
-  <!-- 1. Arka Plan -->
-  <rect width="1200" height="460" fill="url(#deepCosmos)" rx="16" />
-
-  <!-- 2. Aurora -->
-  <g filter="url(#auroraBlur)">
-    <path d="M-100,320 Q300,100 800,240 T1400,100 L1400,460 L-100,460 Z" fill="url(#auroraCyan)" />
-    <path d="M-50,380 Q450,150 900,300 T1350,180 L1350,460 L-50,460 Z" fill="url(#auroraAccent)" />
-    <ellipse cx="600" cy="300" rx="450" ry="120" fill="#00ffff" opacity="0.1" />
-  </g>
-
-  <!-- 3. KESKİN DÖRT KÖŞELİ YILDIZ TARLASI (Sparkles) -->
-  <g opacity="0.9">
-    <!-- Uzak ve ufak yıldızlar -->
-    <use href="#sparkleStar" transform="translate(80, 50) scale(0.2)"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(140, 110) scale(0.3)"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.5s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(250, 40) scale(0.25)"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="4.2s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(380, 120) scale(0.2)"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.8s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(490, 60) scale(0.35)"><animate attributeName="opacity" values="0.1;1;0.1" dur="5s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(620, 100) scale(0.2)"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.1s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(740, 40) scale(0.25)"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.5s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(880, 90) scale(0.3)"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.1s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(1020, 50) scale(0.2)"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.6s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(1120, 110) scale(0.3)"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(1160, 40) scale(0.25)"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.7s" repeatCount="indefinite" /></use>
-
-    <!-- Büyük, Gösterişli ve Parlak Yıldızlar -->
-    <use href="#sparkleStarCyan" transform="translate(210, 80) scale(0.55)" filter="url(#hyperBloom)"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.2s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(330, 150) scale(0.4)"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(420, 70) scale(0.65)" filter="url(#hyperBloom)"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStarCyan" transform="translate(560, 130) scale(0.4)"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.8s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(710, 80) scale(0.7)" filter="url(#hyperBloom)"><animate attributeName="opacity" values="0.5;1;0.5" dur="4.1s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStarCyan" transform="translate(850, 140) scale(0.45)"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.8s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStar" transform="translate(950, 60) scale(0.6)" filter="url(#hyperBloom)"><animate attributeName="opacity" values="0.4;1;0.4" dur="3.4s" repeatCount="indefinite" /></use>
-    <use href="#sparkleStarCyan" transform="translate(1080, 140) scale(0.5)"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.9s" repeatCount="indefinite" /></use>
+  <g clip-path="url(#canvasClip)">
     
-    <!-- Ekstra arka plan parıltıları (Nokta tozu) -->
-    <circle cx="180" cy="220" r="0.8" opacity="0.4"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3s" repeatCount="indefinite" /></circle>
-    <circle cx="390" cy="260" r="0.6" opacity="0.3" />
-    <circle cx="780" cy="240" r="0.9" opacity="0.5"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4s" repeatCount="indefinite" /></circle>
-    <circle cx="980" cy="210" r="0.7" opacity="0.4" />
-  </g>
+    <!-- 1. Uzay Boşluğu -->
+    <rect width="1200" height="460" fill="url(#deepCosmos)" />
 
-  <!-- 4. Kayan Yıldızlar -->
-  <g transform="rotate(-20)">
-    <line x1="900" y1="150" x2="820" y2="150" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0">
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="4s" begin="1s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" begin="1s" repeatCount="indefinite" />
-    </line>
-    <line x1="1400" y1="350" x2="1250" y2="350" stroke="#7dd3fc" stroke-width="2" stroke-linecap="round" opacity="0">
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1800 0" dur="6s" begin="3s" repeatCount="indefinite" />
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="6s" begin="3s" repeatCount="indefinite" />
-    </line>
-  </g>
-
-  <!-- 5. 3 Boyutlu, Gerçekçi Kraterli Dolunay -->
-  <g transform="translate(160, 140)">
-    <!-- Yayılan Ay Halesi -->
-    <circle cx="0" cy="0" r="85" fill="url(#moonGlow)">
-      <animate attributeName="r" values="80;95;80" dur="6s" repeatCount="indefinite" />
-    </circle>
-    
-    <!-- Ay'ın Küresel Hacimli Yüzeyi -->
-    <circle cx="0" cy="0" r="46" fill="url(#moonVolume)" opacity="0.98" />
-    
-    <!-- Çok Daha Doğal/Organik Kraterler (Maria) -->
-    <g filter="url(#moonCraterBlur)" opacity="0.75">
-      <path d="M-18,-20 Q-5,-8 8,-24 Q-5,-30 -18,-20 Z" fill="#334155" />
-      <path d="M12,-12 Q28,-5 20,12 Q5,2 12,-12 Z" fill="#1e293b" opacity="0.8" />
-      <path d="M-22,6 Q-10,22 -4,12 Q-16,6 -22,6 Z" fill="#334155" />
-      <circle cx="16" cy="20" r="8" fill="#0f172a" opacity="0.5" />
-      <circle cx="-6" cy="24" r="7" fill="#334155" opacity="0.7" />
-      <circle cx="0" cy="2" r="11" fill="#475569" opacity="0.4" />
-      <circle cx="26" cy="-14" r="5" fill="#0f172a" opacity="0.6" />
-      <circle cx="-26" cy="-10" r="4.5" fill="#1e293b" opacity="0.5" />
+    <!-- 2. MANYETİK, ŞERİT ŞERİT AURORA AKIŞI (Boya lekesi değil, Tül gibi) -->
+    <g filter="url(#auroraHeavy)">
+      <!-- Arka plandaki devasa yayılmış ana ışık -->
+      <path d="M -200,460 L -200,150 Q 400,-50 900,200 T 1400,100 L 1400,460 Z" fill="url(#auroraRibbon1)" opacity="0.45" />
     </g>
-  </g>
+    <g filter="url(#auroraSharp)">
+      <!-- Öne çıkan, keskin ve dalgalı ince aurora şeritleri -->
+      <path d="M -100,460 L -100,280 Q 300,50 750,220 T 1300,180 L 1300,460 Z" fill="url(#auroraRibbon2)" opacity="0.65" />
+      <path d="M 200,460 L 200,340 Q 600,180 1000,320 T 1300,260 L 1300,460 Z" fill="#00ffff" opacity="0.25" />
+      <path d="M 500,460 L 500,380 Q 800,250 1200,360 L 1200,460 Z" fill="#00f5d4" opacity="0.2" />
+    </g>
 
-  <!-- 6. Ufuk Çizgisi (Minimal) -->
-  <g fill="#010205">
-    <path d="M0,460 L0,442 Q400,432 800,442 T1200,438 L1200,460 Z" />
-    <polygon points="35,444 39,425 43,444" />
-    <polygon points="41,445 46,420 51,445" />
-    <polygon points="48,446 53,428 58,446" />
-    <polygon points="1135,441 1139,422 1143,441" />
-    <polygon points="1140,442 1146,415 1152,442" />
-  </g>
+    <!-- 3. DEvasa PIRLANTA YILDIZ YAĞMURU (Sadece 4 köşeli) -->
+    <!-- MİNİCİK TOZ YILDIZLAR (Sonsuzluk hissi için) -->
+    <g opacity="0.75">
+      <use href="#sparkleStar" transform="translate(40, 50) scale(0.12)"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="2s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(120, 20) scale(0.15)"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(250, 60) scale(0.18)"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="4s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(380, 30) scale(0.14)"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(490, 80) scale(0.16)"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="5s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(620, 40) scale(0.13)"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.2s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(740, 90) scale(0.17)"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(860, 30) scale(0.12)"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.1s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(970, 70) scale(0.15)"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(1080, 40) scale(0.18)"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.9s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(1150, 90) scale(0.14)"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.8s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(90, 160) scale(0.15)"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="3.3s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(320, 120) scale(0.17)"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.7s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(540, 150) scale(0.14)"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4.5s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(820, 120) scale(0.16)"><animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.1s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(1030, 150) scale(0.13)"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" repeatCount="indefinite" /></use>
+    </g>
 
-  <!-- 7. MERKEZ: İyice Küçültülmüş, Zarif, Asimetrik Pırlanta Polaris -->
-  <!-- Scale değerini 0.55'e indirerek yıldızı bir logo/heykel olmaktan çıkarıp zarif bir takıya dönüştürdük -->
-  <g transform="translate(600, 135) scale(0.55)">
-    <!-- Yıldızın arkasındaki nazik parlama -->
-    <circle cx="0" cy="0" r="60" fill="#7dd3fc" opacity="0.25" filter="url(#hyperBloom)">
-       <animate attributeName="opacity" values="0.15;0.35;0.15" dur="3s" repeatCount="indefinite"/>
-       <animate attributeName="r" values="50;70;50" dur="3s" repeatCount="indefinite"/>
-    </circle>
+    <!-- ORTA BOY VE BÜYÜK IŞILTI YILDIZLARI -->
+    <g opacity="0.95">
+      <use href="#sparkleStar" transform="translate(180, 80) scale(0.4)"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStarCyan" transform="translate(290, 130) scale(0.55)" filter="url(#hyperBloom)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(420, 60) scale(0.45)"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.3s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStarCyan" transform="translate(530, 110) scale(0.6)" filter="url(#hyperBloom)"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="3.6s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(680, 50) scale(0.5)"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStarCyan" transform="translate(790, 140) scale(0.7)" filter="url(#hyperBloom)"><animate attributeName="opacity" values="0.5;1;0.5" dur="4.1s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(910, 70) scale(0.4)"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3.7s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStarCyan" transform="translate(1050, 100) scale(0.65)" filter="url(#hyperBloom)"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(1120, 50) scale(0.45)"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="3.3s" repeatCount="indefinite" /></use>
+    </g>
 
-    <g filter="url(#hyperBloom)">
-      <!-- Üst Kısa Işın -->
-      <path d="M 0,-40 L 4,-10 L 0,0 L -4,-10 Z" fill="url(#sharpSilver)"/>
-      <!-- Sağ Kısa Işın -->
-      <path d="M 40,0 L 10,4 L 0,0 L 10,-4 Z" fill="url(#sharpSilver)"/>
-      <!-- Sol Kısa Işın -->
-      <path d="M -40,0 L -10,4 L 0,0 L -10,-4 Z" fill="url(#sharpSilver)"/>
+    <!-- AURORA İÇİNE KARIŞAN ALT YILDIZLAR -->
+    <g opacity="0.6">
+      <use href="#sparkleStar" transform="translate(150, 240) scale(0.2)"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(380, 260) scale(0.25)" />
+      <use href="#sparkleStar" transform="translate(720, 220) scale(0.18)"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4s" repeatCount="indefinite" /></use>
+      <use href="#sparkleStar" transform="translate(950, 250) scale(0.3)"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.5s" repeatCount="indefinite" /></use>
+    </g>
+
+    <!-- 4. Kayan Yıldızlar -->
+    <g transform="rotate(-15)">
+      <line x1="900" y1="80" x2="780" y2="80" stroke="url(#shootingStarTail)" stroke-width="1.8" stroke-linecap="round" opacity="0">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="4s" begin="1s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur="4s" begin="1s" repeatCount="indefinite" />
+      </line>
+      <line x1="1400" y1="250" x2="1200" y2="250" stroke="#00ffff" stroke-width="2.5" stroke-linecap="round" opacity="0">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-1800 0" dur="6s" begin="3.5s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.8;0.8;0" keyTimes="0;0.1;0.9;1" dur="6s" begin="3.5s" repeatCount="indefinite" />
+      </line>
+    </g>
+
+    <!-- 5. 3 BOYUTLU, GERÇEKÇİ HACİMLİ AY -->
+    <g transform="translate(170, 130)">
+      <!-- Yayılan Ay Halesi -->
+      <circle cx="0" cy="0" r="95" fill="url(#moonGlow)">
+        <animate attributeName="r" values="90;105;90" dur="6s" repeatCount="indefinite" />
+      </circle>
       
-      <!-- ASİMETRİK İMZA: Hançer Alt Uzun Işın -->
-      <path d="M 0,0 L 4,10 L 1,95 L -1,95 L -4,10 Z" fill="url(#sharpSilver)">
-        <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
-      </path>
-
-      <!-- Çapraz Mikro Işınlar -->
-      <path d="M 22,-22 L 6,-6 L 0,0 L -6,-6 Z" fill="#ffffff" opacity="0.9"/>
-      <path d="M 22,22 L 6,6 L 0,0 L 6,-6 Z" fill="#e2e8f0" opacity="0.7"/>
-      <path d="M -22,22 L -6,6 L 0,0 L -6,-6 Z" fill="#ffffff" opacity="0.9"/>
-      <path d="M -22,-22 L -6,-6 L 0,0 L -6,-6 Z" fill="#e2e8f0" opacity="0.7"/>
+      <!-- Ay Yüzeyi ve Gölgeli Hacim -->
+      <circle cx="0" cy="0" r="48" fill="url(#moonVolume)" opacity="0.95" />
+      
+      <!-- Organik Krater Lekeleri (Maria) -->
+      <g filter="url(#moonCraterBlur)" opacity="0.65">
+        <path d="M-18,-20 Q-5,-8 8,-24 Q-5,-30 -18,-20 Z" fill="#334155" />
+        <path d="M12,-12 Q28,-5 20,12 Q5,2 12,-12 Z" fill="#1e293b" opacity="0.8" />
+        <path d="M-22,6 Q-10,22 -4,12 Q-16,6 -22,6 Z" fill="#334155" />
+        <circle cx="16" cy="20" r="8" fill="#0f172a" opacity="0.5" />
+        <circle cx="-6" cy="24" r="7" fill="#334155" opacity="0.7" />
+        <circle cx="0" cy="2" r="11" fill="#475569" opacity="0.4" />
+        <circle cx="26" cy="-14" r="5" fill="#0f172a" opacity="0.6" />
+        <circle cx="-26" cy="-10" r="4.5" fill="#1e293b" opacity="0.5" />
+      </g>
     </g>
-    
-    <!-- Tam Merkezdeki Göz Alıcı Elmas Işığı -->
-    <circle cx="0" cy="0" r="3.5" fill="#ffffff" filter="url(#hyperBloom)">
-      <animate attributeName="r" values="2.5;5;2.5" dur="1.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="0" cy="0" r="1.5" fill="#ffffff"/>
-    
-    <!-- Havada zarifçe süzülme -->
-    <animateTransform attributeName="transform" type="rotate" from="-5" to="5" dur="8s" repeatCount="indefinite" additive="sum"/>
-  </g>
 
-  <!-- 8. TİPOGRAFİ (İnce Işıltılı) -->
-  <text x="600" y="255" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="31" font-weight="800" fill="#ffffff" letter-spacing="10" filter="url(#hyperBloom)">
-    POLARIS
-  </text>
+    <!-- 6. Ufuk Çizgisi (Minimal - Sadece Dipte) -->
+    <g fill="#010206">
+      <path d="M0,460 L0,445 Q400,435 800,445 T1200,440 L1200,460 Z" />
+      <polygon points="35,446 39,428 43,446" />
+      <polygon points="41,447 46,423 51,447" />
+      <polygon points="48,448 53,430 58,448" />
+      <polygon points="1135,444 1139,425 1143,444" />
+      <polygon points="1140,445 1146,418 1152,445" />
+    </g>
 
-  <g>
-    <text x="600" y="300" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="18.5" font-weight="500" fill="url(#sloganGlow)" letter-spacing="1.5">
-      The Unfailing Compass in an Orbit of Chaos
-      <animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.25;0.75;0.9;1" dur="5s" repeatCount="indefinite"/>
+    <!-- 7. MERKEZ: İNCECİK, ZARİF, İĞNE UÇLU POLARIS (Kolyen) -->
+    <g transform="translate(600, 130) scale(0.45)">
+      <!-- Yıldızın arkasındaki nazik pırlanta parlaması -->
+      <circle cx="0" cy="0" r="70" fill="#cffafe" opacity="0.25" filter="url(#hyperBloom)">
+         <animate attributeName="opacity" values="0.15;0.35;0.15" dur="3s" repeatCount="indefinite"/>
+         <animate attributeName="r" values="60;80;60" dur="3s" repeatCount="indefinite"/>
+      </circle>
+
+      <g filter="url(#hyperBloom)">
+        <!-- Üst Kısa Işın -->
+        <path d="M 0,-50 L 3.5,-12 L 0,0 L -3.5,-12 Z" fill="url(#sharpSilver)"/>
+        <!-- Sağ Kısa Işın -->
+        <path d="M 50,0 L 12,3.5 L 0,0 L 12,-3.5 Z" fill="url(#sharpSilver)"/>
+        <!-- Sol Kısa Işın -->
+        <path d="M -50,0 L -12,3.5 L 0,0 L -12,-3.5 Z" fill="url(#sharpSilver)"/>
+        
+        <!-- ASİMETRİK İMZA: Hançer Alt Uzun Işın -->
+        <path d="M 0,0 L 3.5,12 L 0.8,110 L -0.8,110 L -3.5,12 Z" fill="url(#sharpSilver)">
+          <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+        </path>
+
+        <!-- Çapraz İğne Işınlar -->
+        <path d="M 25,-25 L 5,-5 L 0,0 L -5,-5 Z" fill="#ffffff" opacity="0.9"/>
+        <path d="M 25,25 L 5,5 L 0,0 L 5,-5 Z" fill="#e2e8f0" opacity="0.7"/>
+        <path d="M -25,25 L -5,5 L 0,0 L -5,-5 Z" fill="#ffffff" opacity="0.9"/>
+        <path d="M -25,-25 L -5,-5 L 0,0 L -5,-5 Z" fill="#e2e8f0" opacity="0.7"/>
+      </g>
+      
+      <!-- Tam Merkezdeki Göz Alıcı Elmas Işığı -->
+      <circle cx="0" cy="0" r="4.5" fill="#ffffff" filter="url(#hyperBloom)">
+        <animate attributeName="r" values="3.5;6;3.5" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="0" cy="0" r="2" fill="#ffffff"/>
+      
+      <animateTransform attributeName="transform" type="rotate" from="-4" to="4" dur="8s" repeatCount="indefinite" additive="sum"/>
+    </g>
+
+    <!-- 8. TİPOGRAFİ (İnce Işıltılı) -->
+    <text x="600" y="255" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="31" font-weight="800" fill="#ffffff" letter-spacing="10" filter="url(#hyperBloom)">
+      POLARIS
     </text>
+
+    <g>
+      <text x="600" y="300" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="18.5" font-weight="500" fill="#38bdf8" letter-spacing="1.5">
+        The Unfailing Compass in an Orbit of Chaos
+        <animate attributeName="opacity" values="0.15;1;1;0.15;0.15" keyTimes="0;0.25;0.75;0.9;1" dur="5s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <text x="600" y="345" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11.5" fill="#cbd5e1" letter-spacing="3.5">
+      AI APPLICATION ARCHITECT  •  LOCAL RAG PIPELINES  •  BACKEND SYSTEMS
+    </text>
+
   </g>
 
-  <text x="600" y="345" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11.5" fill="#cbd5e1" letter-spacing="3.5">
-    AI APPLICATION ARCHITECT  •  LOCAL RAG PIPELINES  •  BACKEND SYSTEMS
-  </text>
-
+  <!-- İnce Dış Çerçeve -->
   <rect width="1200" height="460" fill="none" stroke="#00ffff" stroke-opacity="0.15" stroke-width="1.5" rx="16"/>
 </svg>
