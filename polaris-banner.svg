@@ -1,42 +1,22 @@
-<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="460" viewBox="0 0 1200 460" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <!-- Derin Gece Gökyüzü -->
-    <linearGradient id="nightSky" x1="50%" y1="0%" x2="50%" y2="100%">
-      <stop offset="0%" stop-color="#02040a" />
-      <stop offset="40%" stop-color="#050d1a" />
-      <stop offset="75%" stop-color="#08182b" />
-      <stop offset="100%" stop-color="#040914" />
+    <!-- Slogan Parıltısı -->
+    <linearGradient id="auroraGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BAE6FD">
+        <animate attributeName="stop-color" values="#BAE6FD;#FFFFFF;#38BDF8;#BAE6FD" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#FFFFFF">
+        <animate attributeName="stop-color" values="#FFFFFF;#38BDF8;#BAE6FD;#FFFFFF" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#38BDF8">
+        <animate attributeName="stop-color" values="#38BDF8;#BAE6FD;#FFFFFF;#38BDF8" dur="6s" repeatCount="indefinite" />
+      </stop>
     </linearGradient>
 
-    <!-- Aurora & Nebula Işıltısı (Kuzey Işıkları Halesi) -->
-    <radialGradient id="auroraGlow" cx="22%" cy="30%" r="65%">
-      <stop offset="0%" stop-color="#00ffcc" stop-opacity="0.22" />
-      <stop offset="35%" stop-color="#0099ff" stop-opacity="0.16" />
-      <stop offset="70%" stop-color="#3b0764" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Gerçekçi Dolunay Gradyanı -->
-    <radialGradient id="moonBody" cx="38%" cy="38%" r="60%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="60%" stop-color="#E2E8F0" />
-      <stop offset="85%" stop-color="#94A3B8" />
-      <stop offset="100%" stop-color="#64748B" />
-    </radialGradient>
-
-    <radialGradient id="moonAura" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.5" />
-      <stop offset="40%" stop-color="#38BDF8" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
-    </radialGradient>
-
-    <!-- Kutup Yıldızı Parlama Efekti -->
-    <filter id="starGlow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur1" />
-      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur2" />
+    <filter id="starGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
       <feMerge>
-        <feMergeNode in="blur2" />
-        <feMergeNode in="blur1" />
+        <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
@@ -47,116 +27,65 @@
   </defs>
 
   <g clip-path="url(#canvasClip)">
-    <!-- 1. Arka Plan & Atmosfer -->
-    <rect width="1200" height="460" fill="url(#nightSky)" />
-    <rect width="1200" height="460" fill="url(#auroraGlow)" />
+    <!-- 1. Yüklediğin Gerçek Fotoğrafı Arka Plan Yapıyoruz -->
+    <image href="https://raw.githubusercontent.com/medinesu/medinesu/main/polaris_kutup_isiklari.jpg" x="0" y="0" width="1200" height="460" preserveAspectRatio="xMidYMid slice" />
+    
+    <!-- Yazılar net okunsun diye üzerine çok hafif sinematik bir gölge/karartma atıyoruz -->
+    <rect width="1200" height="460" fill="#02040a" opacity="0.3" />
 
-    <!-- 2. Gökyüzündeki Parıldayıp Sönen Gerçekçi Yıldızlar (Twinkle) -->
-    <!-- Grup 1: Hızlı Parıldayanlar -->
+    <!-- 2. Gökyüzündeki Parıldayıp Sönen Animasyonlu Yıldızlar (Fotoğrafın üzerine eklenecek) -->
     <g fill="#FFFFFF">
-      <circle cx="110" cy="70" r="1.2"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite" /></circle>
-      <circle cx="280" cy="45" r="1.5"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite" /></circle>
-      <circle cx="420" cy="110" r="1"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2s" repeatCount="indefinite" /></circle>
-      <circle cx="560" cy="60" r="1.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite" /></circle>
-      <circle cx="730" cy="85" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite" /></circle>
-      <circle cx="890" cy="40" r="1.8"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="2.6s" repeatCount="indefinite" /></circle>
-      <circle cx="1040" cy="95" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite" /></circle>
-      <circle cx="1140" cy="160" r="1.4"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.1s" repeatCount="indefinite" /></circle>
-      <circle cx="980" cy="220" r="1"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="3.8s" repeatCount="indefinite" /></circle>
-      <circle cx="180" cy="210" r="1.3"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.7s" repeatCount="indefinite" /></circle>
+      <circle cx="150" cy="80" r="1.5"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.4s" repeatCount="indefinite" /></circle>
+      <circle cx="320" cy="55" r="2"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="3.1s" repeatCount="indefinite" /></circle>
+      <circle cx="480" cy="120" r="1.2"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2s" repeatCount="indefinite" /></circle>
+      <circle cx="760" cy="70" r="1.8"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite" /></circle>
+      <circle cx="920" cy="95" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite" /></circle>
+      <circle cx="1080" cy="110" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite" /></circle>
     </g>
 
-    <!-- Grup 2: Yavaş Süzülen Mikro Parçacıklar -->
-    <g fill="#A5F3FC" opacity="0.6">
-      <circle cx="360" cy="460" r="1.4"><animate attributeName="cy" values="460;-10" dur="28s" repeatCount="indefinite" /></circle>
-      <circle cx="820" cy="460" r="1.8"><animate attributeName="cy" values="460;-10" dur="34s" repeatCount="indefinite" /></circle>
-      <circle cx="650" cy="460" r="1.2"><animate attributeName="cy" values="460;-10" dur="22s" repeatCount="indefinite" /></circle>
-    </g>
-
-    <!-- 3. Sol Üstteki Gerçekçi Dolunay & Halesi -->
-    <g transform="translate(140, 110)">
-      <!-- Ay Halesi -->
-      <circle cx="0" cy="0" r="85" fill="url(#moonAura)">
-        <animate attributeName="r" values="80;92;80" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.5;0.75;0.5" dur="6s" repeatCount="indefinite" />
-      </circle>
-      <!-- Ay Gövdesi -->
-      <circle cx="0" cy="0" r="42" fill="url(#moonBody)" filter="drop-shadow(0 0 14px rgba(224, 242, 254, 0.8))" />
-      <!-- Ay Yüzey Kraterleri / Doğal Gölgeler -->
-      <ellipse cx="-10" cy="-6" rx="11" ry="8" fill="#475569" opacity="0.18" />
-      <ellipse cx="14" cy="8" rx="14" ry="10" fill="#475569" opacity="0.15" />
-      <circle cx="4" cy="-18" r="6" fill="#475569" opacity="0.12" />
-      <ellipse cx="-16" cy="14" rx="8" ry="6" fill="#475569" opacity="0.2" />
-    </g>
-
-    <!-- 4. Alt Kısımdaki Çam Ormanı & Gece Ufuk Çizgisi (Fotoğraftaki Gibi) -->
-    <g fill="#02050b">
-      <path d="M 0 460 L 0 395 
-               C 50 390, 80 405, 130 392 
-               C 180 380, 230 400, 290 388 
-               C 360 375, 420 398, 490 385 
-               C 570 372, 640 395, 720 384 
-               C 800 375, 870 395, 940 382 
-               C 1020 370, 1090 395, 1150 386 
-               L 1200 385 L 1200 460 Z" />
-      <!-- Minimalist Çam Ağacı Silüetleri -->
-      <polygon points="60,400 68,368 76,400" />
-      <polygon points="70,402 78,362 86,402" />
-      <polygon points="175,395 182,358 189,395" />
-      <polygon points="250,398 256,365 262,398" />
-      <polygon points="980,390 988,355 996,390" />
-      <polygon points="1060,395 1067,362 1074,395" />
-    </g>
-
-    <!-- 5. MERKEZ ODAK: POLARIS (Kutup Yıldızı) & Kozmik Pusula -->
-    <g transform="translate(600, 125)">
-      <!-- Kutup Yıldızı Halesi -->
-      <circle cx="0" cy="0" r="55" fill="#38BDF8" opacity="0.25">
-        <animate attributeName="r" values="45;65;45" dur="3.5s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.15;0.4;0.15" dur="3.5s" repeatCount="indefinite" />
+    <!-- 3. MERKEZ ODAK: Dönen Polaris (Kutup Yıldızı) -->
+    <g transform="translate(600, 140)">
+      <!-- Yıldızın Arkasındaki Nabız Atan Buz Mavisi Işık -->
+      <circle cx="0" cy="0" r="50" fill="#38BDF8" opacity="0.3">
+        <animate attributeName="r" values="40;60;40" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite" />
       </circle>
 
       <!-- İnce Astronomik Pusula Çemberi -->
-      <circle cx="0" cy="0" r="48" fill="none" stroke="#67E8F9" stroke-opacity="0.3" stroke-dasharray="3 6">
-        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="90s" repeatCount="indefinite" />
+      <circle cx="0" cy="0" r="48" fill="none" stroke="#67E8F9" stroke-opacity="0.4" stroke-dasharray="2 6">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="100s" repeatCount="indefinite" />
       </circle>
 
-      <!-- 8 Köşeli Dönen Canlı Kutup Yıldızı Kristali -->
+      <!-- 8 Köşeli Dönen Kristal -->
       <g filter="url(#starGlow)">
-        <!-- Ana Işık Kirişleri -->
-        <path d="M 0 -48 Q 0 0 -48 0 Q 0 0 0 48 Q 0 0 48 0 Q 0 0 0 -48 Z" fill="#FFFFFF">
+        <path d="M 0 -45 Q 0 0 -45 0 Q 0 0 0 45 Q 0 0 45 0 Q 0 0 0 -45 Z" fill="#FFFFFF">
           <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite" />
         </path>
-        <!-- Çapraz Buz Mavisi Işık Kolları -->
-        <path d="M 0 -28 Q 0 0 -28 0 Q 0 0 0 28 Q 0 0 28 0 Q 0 0 0 -28 Z" fill="#38BDF8" opacity="0.85" transform="rotate(45)">
+        <path d="M 0 -26 Q 0 0 -26 0 Q 0 0 0 26 Q 0 0 26 0 Q 0 0 0 -26 Z" fill="#38BDF8" opacity="0.9" transform="rotate(45)">
           <animateTransform attributeName="transform" type="rotate" from="45" to="405" dur="60s" repeatCount="indefinite" />
         </path>
       </g>
-      <circle cx="0" cy="0" r="4" fill="#FFFFFF" />
+      <circle cx="0" cy="0" r="3" fill="#FFFFFF" />
     </g>
 
-    <!-- 6. TİPOGRAFİ VE NEFES ALIP KAYBOLAN/BELİREN SLOGAN -->
-    <!-- Üst Başlık -->
-    <text x="600" y="245" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" letter-spacing="8">
+    <!-- 4. TİPOGRAFİ VE NEFES ALAN SLOGAN -->
+    <text x="600" y="260" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="28" font-weight="800" fill="#FFFFFF" letter-spacing="8">
       POLARIS
     </text>
 
-    <!-- Ortaya Çıkıp Usulca Parıldayan Slogan (Fade In/Out Animasyonu) -->
+    <!-- Ortaya Çıkıp Usulca Parıldayan Slogan -->
     <g>
-      <text x="600" y="285" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif" font-size="18.5" font-weight="500" fill="#7DD3FC" letter-spacing="1.5">
-        Polaris: The Unfailing Compass in an Orbit of Chaos
-        <!-- Nefes Alma / Ortaya Çıkıp Kaybolma Efekti -->
-        <animate attributeName="opacity" values="0.25;1;0.25" dur="5s" repeatCount="indefinite" />
-        <animate attributeName="fill" values="#7DD3FC;#FFFFFF;#38BDF8;#7DD3FC" dur="8s" repeatCount="indefinite" />
+      <text x="600" y="300" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Inter', sans-serif" font-size="18.5" font-weight="500" fill="url(#auroraGlow)" letter-spacing="1.5">
+        The Unfailing Compass in an Orbit of Chaos
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="5s" repeatCount="indefinite" />
       </text>
     </g>
 
-    <!-- Mimari Kimlik Satırı -->
-    <text x="600" y="325" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" fill="#94A3B8" letter-spacing="3">
+    <text x="600" y="340" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11.5" fill="#E2E8F0" letter-spacing="3">
       AI APPLICATION ARCHITECT  •  LOCAL RAG PIPELINES  •  BACKEND SYSTEMS
     </text>
 
     <!-- İnce Çerçeve -->
-    <rect width="1200" height="460" fill="none" stroke="#38BDF8" stroke-opacity="0.18" stroke-width="1.5" rx="16" />
+    <rect width="1200" height="460" fill="none" stroke="#38BDF8" stroke-opacity="0.2" stroke-width="1.5" rx="16" />
   </g>
 </svg>
