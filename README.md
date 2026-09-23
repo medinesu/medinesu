@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Animasyonlu Polaris Uzay Banner'ı -->
-  <img src="./polaris-banner.svg?v=1" alt="Polaris - Autonomous Compass" width="100%" />
+  <img src="./polaris-banner.svg?v=3" alt="Polaris - Autonomous Compass" width="100%" />
 
   <br/><br/>
 
