@@ -1,7 +1,7 @@
 <div align="center">
 
   <img
-    src="./polaris-banner.png"
+    src="./polaris-banner.gif"
     alt="Polaris — The Unfailing Compass"
     width="100%"
   />
