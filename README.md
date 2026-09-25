@@ -1,73 +1,135 @@
 <div align="center">
 
   <!-- POLARIS AESTHETIC BANNER -->
-  <img
-    src="polaris-banner.gif"
-    alt="Polaris — The Unfailing Compass"
-    width="100%"
-  />
+  <a href="https://www.linkedin.com/in/medine-sultan-e-8a41133a1/" target="_blank">
+    <img
+      src="polaris-banner.gif"
+      alt="Polaris — The Unfailing Compass"
+      width="100%"
+    />
+  </a>
 
   <br/><br/>
 
-  <!-- TRANSMISSION & CONTACT LINKS -->
+<!-- ZARİF İLETİŞİM & AKADEMİK İKONLAR (BUZUL KUTUP MAVİSİ #7dd3fc) -->
+<p align="center">
+  <a href="https://github.com/medinesu" target="_blank">
+    <img src="https://img.icons8.com/material-outlined/30/7dd3fc/source-code.png" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/medine-sultan-e-8a41133a1/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A0E17?style=for-the-badge&logo=linkedin&logoColor=38BDF8&borderColor=1E293B" alt="LinkedIn" />
+    <img src="https://img.icons8.com/material-outlined/30/7dd3fc/linkedin.png" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;
-  <a href="mailto:efemedinesultan@gmail.com">
-    <img src="https://img.shields.io/badge/Email-0A0E17?style=for-the-badge&logo=gmail&logoColor=7DD3FC&borderColor=1E293B" alt="Email" />
-  </a>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://medium.com/@efemedinesultan" target="_blank">
-    <img src="https://img.shields.io/badge/Medium-0A0E17?style=for-the-badge&logo=medium&logoColor=FFFFFF&borderColor=1E293B" alt="Medium" />
+    <img src="https://img.icons8.com/ios-filled/30/7dd3fc/medium-new.png" alt="Medium" />
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.researchgate.net/profile/Medine-Efe" target="_blank">
+    <img src="https://img.icons8.com/material-outlined/30/7dd3fc/physics.png" alt="ResearchGate" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/medinesu/websitem" target="_blank">
+    <img src="https://img.icons8.com/material-outlined/30/7dd3fc/geography.png" alt="Website" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:efemedinesultan@gmail.com">
+    <img src="https://img.icons8.com/material-outlined/30/7dd3fc/new-post.png" alt="Email" />
+  </a>
+</p>
 
 </div>
 
 <br/>
 
-### `// 01. ARCHITECTURE & VISION`
-
-> *"The unfailing compass in an orbit of chaos."*
-
-Computer Engineering student and software engineer focused on building **deterministic backend systems**, **privacy-first local RAG pipelines**, and **autonomous AI agents**. Driven by the philosophy of turning ambiguous complexity into scalable, elegant architecture.
-
-- 🔭 **Current Focus:** Large Language Model pipelines, Local RAG architectures, and High-Performance Java/Python systems.
-- 📐 **Core Discipline:** Clean code paradigms, OOP design patterns, and low-latency retrieval algorithms.
-- ✍️ **Writing & Research:** Sharing technical deep dives and engineering reflections on Medium.
+###  &nbsp; ABOUT ME
 
 <br/>
 
-### `// 02. CORE ARSENAL & TECH STACK`
+<small>✦</small> &nbsp; <img src="https://img.shields.io/badge/Computer_Engineering_%26_Architecture-7B2CBF?style=plastic" alt="Computer Engineering & Architecture" />  
 
-<div align="left">
-
-**Artificial Intelligence & Data Pipelines**  
-![Python](https://img.shields.io/badge/Python-0A0E17?style=flat-square&logo=python&logoColor=38BDF8)
-![RAG](https://img.shields.io/badge/Local_RAG-0A0E17?style=flat-square&logo=diagram-next&logoColor=7DD3FC)
-![Streamlit](https://img.shields.io/badge/Streamlit-0A0E17?style=flat-square&logo=streamlit&logoColor=FF4B4B)
-![LLM Integration](https://img.shields.io/badge/LLM_Systems-0A0E17?style=flat-square&logo=openai&logoColor=38BDF8)
+> Third-year student building **high-performance** backend systems, **clean OOP structures**, and modern web applications (Java, Python, C, Next.js).
 
 <br/>
 
-**Core Engineering & Backend Systems**  
-![Java](https://img.shields.io/badge/Java-0A0E17?style=flat-square&logo=openjdk&logoColor=ED8B00)
-![C](https://img.shields.io/badge/C_Language-0A0E17?style=flat-square&logo=c&logoColor=A8B9CC)
-![OOP](https://img.shields.io/badge/OOP_Architecture-0A0E17?style=flat-square&logo=codepen&logoColor=38BDF8)
-![MySQL](https://img.shields.io/badge/MySQL-0A0E17?style=flat-square&logo=mysql&logoColor=00758F)
+<small>✦</small> &nbsp; <img src="https://img.shields.io/badge/Visionary_Problem_Solving_%26_Product_Mindset-7B2CBF?style=plastic" alt="Visionary Problem Solving & Product Mindset" />  
+
+> Approaching engineering challenges with creative perspectives; passionate about turning abstract, messy problems into functional, elegant, and impactful products.
 
 <br/>
 
-**Environment & Tooling**  
-![Git](https://img.shields.io/badge/Git-0A0E17?style=flat-square&logo=git&logoColor=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-0A0E17?style=flat-square&logo=github&logoColor=FFFFFF)
-![Linux/VSCode](https://img.shields.io/badge/VS_Code-0A0E17?style=flat-square&logo=visualstudiocode&logoColor=007ACC)
+<small>✦</small> &nbsp; <img src="https://img.shields.io/badge/Applied_AI_%26_Autonomous_Pipelines-7B2CBF?style=plastic" alt="Applied AI & Autonomous Pipelines" />  
 
+> Architecting privacy-first Local RAG systems, LLM workflows, and deterministic automations designed for **real-world reliability**.
+
+<br/>
+
+<small>✦</small> &nbsp; <img src="https://img.shields.io/badge/Builder%27s_DNA_%26_Research_Drive-7B2CBF?style=plastic" alt="Builder's DNA & Research Drive" />  
+
+> Driven by intense curiosity, deep focus, and continuous exploration across technology, prose, and system design.
+
+<br/>
+
+<small>✦</small> &nbsp; <img src="https://img.shields.io/badge/Open_for_Freelance_%26_Collaborations-7B2CBF?style=plastic" alt="Open for Freelance & Collaborations" />  
+
+> Ready to deliver end-to-end custom AI assistants, robust backend pipelines, and high-impact digital solutions.
+
+<br/><br/><br/>
+###  &nbsp; TECH STACK
+
+<br/>
+
+<p align="left">
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=python&svgfill=3776AB" alt="Python" />
+  </a>
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=java&svgfill=ED8B00" alt="Java" />
+  </a>
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=c&svgfill=A8B9CC" alt="C" />
+  </a>
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=dart&svgfill=0175C2" alt="Dart" />
+  </a>
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=javascript&svgfill=F7DF1E" alt="JavaScript" />
+  </a>
+</p>
+
+<p align="left">
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=mysql&desc=SQL&svgfill=4479A1" alt="SQL" />
+  </a>
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=git&svgfill=F05032" alt="Git" />
+  </a>
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=html5&svgfill=E34F26" alt="HTML5" />
+  </a>
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=CSS3&svgfill=1572B6" alt="CSS3" />
+  </a>
+  <a href="https://github.com/medinesu">
+    <img src="https://readme-components.vercel.app/api?component=logo&fill=black&logo=github" alt="GitHub" />
+  </a>
+</p>
+
+<br/><br/><br/>
+
+###  &nbsp; FEATURED PROJECTS
+
+<br/>
+
+* ❄️ **[Kar Tanesi — Local RAG Assistant](https://github.com/medinesu/kar-tanesi-local-rag-assistant)** — Local RAG-based AI assistant built with Python & Streamlit.
+* ☕ **[Java OOP Mini Projects](https://github.com/medinesu/Java-OOP-Mini-Projects)** — Core Object-Oriented Programming (OOP) principles and algorithmic logic.
+* ⚙️ **[C Programming Homeworks](https://github.com/medinesu/C-Programming-Homeworks)** — Curated C programming assignments and algorithmic solutions.
+* 🌐 **[Websitem](https://github.com/medinesu/websitem)** — Full-stack web development project powered by PHP & MySQL.
+
+<br/><br/>
+
+---
+
+<div align="center">
+  <sub><i>Polaris: The Unfailing Compass in an Orbit of Chaos</i></sub>
 </div>
-
-<br/>
-
-### `// 03. FEATURED SYSTEMS`
-
-```bash
-$ polaris --list-deployments
