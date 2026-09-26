@@ -42,7 +42,8 @@
 
 <br/>
 
-### ✦ &nbsp; ABOUT ME<img src="crystal-line.svg?v=1" width="420" height="4" align="absmiddle" />
+### ✦ &nbsp; ABOUT ME&hairsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
+
 <br/>
 
 ✦ &nbsp; <img src="https://img.shields.io/badge/Computer_Engineering_%26_Architecture-5b21b6?style=plastic" alt="Computer Engineering & Architecture" />  
@@ -70,7 +71,7 @@
 
 <br/><br/><br/>
 
-## TECH STACK
+### ✦ &nbsp; TECH STACK&hairsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
 
 <br/>
 
@@ -92,7 +93,7 @@
 
 <br/><br/><br/>
 
-## FEATURED PROJECTS
+### ✦ &nbsp; FEATURED PROJECTS&hairsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
 
 <br/>
 
