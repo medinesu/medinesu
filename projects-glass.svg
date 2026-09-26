@@ -5,30 +5,30 @@
       <feGaussianBlur stdDeviation="60" />
     </filter>
 
-    <!-- Derin Uzay Dış Cam Zemin Degradesi -->
+    <!-- Dış Cam Zemin -->
     <linearGradient id="deep-space-glass" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070a13" stop-opacity="0.96" />
       <stop offset="100%" stop-color="#0b1120" stop-opacity="0.98" />
     </linearGradient>
 
-    <!-- Dış Kapsül Kılcal Çerçeve -->
+    <!-- Dış Kapsül Çerçevesi -->
     <linearGradient id="polaris-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#5b21b6" stop-opacity="0.80" />
-      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.70" />
+      <stop offset="0%" stop-color="#5b21b6" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.40" />
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.75" />
     </linearGradient>
 
-    <!-- İç Kartlar: Işık Kırılmalı Belirgin Cam Çerçeve (Edge-Light) -->
+    <!-- İÇ KARTLAR: Belirgin Buzul Mavisi & Neon Mor Cam Kenarlık (High Contrast) -->
     <linearGradient id="inner-card-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.65" />
-      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#5b21b6" stop-opacity="0.55" />
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.95" />
+      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.90" />
     </linearGradient>
 
-    <!-- İç Kartlar: Katman Derinliği Veren Dolgu -->
+    <!-- İç Kartlar: Katmanı Ayıran Koyu Cam Dolgusu -->
     <linearGradient id="inner-card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.70" />
-      <stop offset="100%" stop-color="#0b1324" stop-opacity="0.85" />
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.88" />
+      <stop offset="100%" stop-color="#070d19" stop-opacity="0.94" />
     </linearGradient>
   </defs>
 
@@ -49,14 +49,14 @@
   </style>
 
   <!-- 1. Dış Cam Kapsül -->
-  <rect x="1" y="1" width="818" height="438" rx="16" fill="url(#deep-space-glass)" stroke="url(#polaris-border)" stroke-width="1.2" />
+  <rect x="1" y="1" width="818" height="438" rx="16" fill="url(#deep-space-glass)" stroke="url(#polaris-border)" stroke-width="1.4" />
 
   <!-- 2. Arka Plan Nebula Işık Küreleri -->
   <circle cx="90" cy="80" r="140" fill="#6366f1" class="nebula-glow" filter="url(#cosmic-glow)" />
   <circle cx="730" cy="360" r="150" fill="#0ea5e9" class="nebula-glow" filter="url(#cosmic-glow)" />
-  <circle cx="410" cy="220" r="110" fill="#5b21b6" opacity="0.14" filter="url(#cosmic-glow)" />
+  <circle cx="410" cy="220" r="110" fill="#5b21b6" opacity="0.16" filter="url(#cosmic-glow)" />
 
-  <!-- 3. Gökyüzü & Kutupyıldızı Parıltıları -->
+  <!-- 3. Gökyüzü Işıltıları -->
   <path class="twinkle-slow" d="M 180 40 Q 180 45 185 45 Q 180 45 180 50 Q 180 45 175 45 Q 180 45 180 40 Z" fill="#7dd3fc" />
   <path class="twinkle-fast" d="M 680 48 Q 680 53 685 53 Q 680 53 680 58 Q 680 53 675 53 Q 680 53 680 48 Z" fill="#c084fc" />
   <circle cx="390" cy="62" r="1.5" fill="#f8fafc" class="twinkle-offset" />
@@ -65,12 +65,12 @@
   <path class="twinkle-fast" d="M 60 405 Q 60 409 64 409 Q 60 409 60 413 Q 60 409 56 409 Q 60 409 60 405 Z" fill="#7dd3fc" />
   <circle cx="430" cy="408" r="1.5" fill="#e2e8f0" class="twinkle-slow" />
 
-  <!-- 4. Üst Telemetri Başlığı -->
+  <!-- 4. Üst Başlık -->
   <text x="35" y="46" class="hud-header">✦ REPOSITORY ARCHITECTURE // SYSTEM NODES</text>
 
-  <!-- ==================== KART 1: Kar Tanesi ==================== -->
+  <!-- ==================== KART 1 ==================== -->
   <g transform="translate(35, 70)">
-    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.2" />
+    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.8" />
     <text x="18" y="32" class="repo-title">❄️ kar-tanesi-local-rag-assistant</text>
     <text x="18" y="62" class="repo-desc">Privacy-first, local retrieval-augmented generation</text>
     <text x="18" y="80" class="repo-desc">assistant for deterministic document queries.</text>
@@ -78,9 +78,9 @@
     <text x="36" y="129" class="lang-text">Python</text>
   </g>
 
-  <!-- ==================== KART 2: Websitem ==================== -->
+  <!-- ==================== KART 2 ==================== -->
   <g transform="translate(420, 70)">
-    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.2" />
+    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.8" />
     <text x="18" y="32" class="repo-title">🌐 websitem</text>
     <text x="18" y="62" class="repo-desc">Full-stack dynamic web interface backed by a</text>
     <text x="18" y="80" class="repo-desc">relational database and responsive UI layouts.</text>
@@ -88,9 +88,9 @@
     <text x="36" y="129" class="lang-text">JavaScript</text>
   </g>
 
-  <!-- ==================== KART 3: C Programming ==================== -->
+  <!-- ==================== KART 3 ==================== -->
   <g transform="translate(35, 245)">
-    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.2" />
+    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.8" />
     <text x="18" y="32" class="repo-title">⚙️ C-Programming-Homeworks</text>
     <text x="18" y="62" class="repo-desc">Curated algorithmic solutions, manual memory</text>
     <text x="18" y="80" class="repo-desc">allocation pipelines, and system routines.</text>
@@ -98,9 +98,9 @@
     <text x="36" y="129" class="lang-text">C</text>
   </g>
 
-  <!-- ==================== KART 4: Java OOP ==================== -->
+  <!-- ==================== KART 4 ==================== -->
   <g transform="translate(420, 245)">
-    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.2" />
+    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.8" />
     <text x="18" y="32" class="repo-title">☕ Java-OOP-Mini-Projects</text>
     <text x="18" y="62" class="repo-desc">Object-oriented architecture implementations</text>
     <text x="18" y="80" class="repo-desc">focusing on clean logic and design patterns.</text>
