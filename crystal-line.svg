@@ -1,15 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 4" width="500" height="4" fill="none">
   <defs>
     <linearGradient id="crystalGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <!-- Sol uç: Kelimenin hemen dibinde anında başlayan buzul mavisi -->
-      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0" />
-      <stop offset="2%" stop-color="#7dd3fc" stop-opacity="0.9" />
+      <!-- Kelimenin hemen bitiminde başlayan net buzul mavisi -->
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.85" />
+      <stop offset="15%" stop-color="#7dd3fc" stop-opacity="0.95" />
       <!-- Parlak kristal ışık merkezi -->
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="70%" stop-color="#7dd3fc" stop-opacity="0.4" />
-      <!-- Sağa doğru süzülen uzun kuyruk -->
+      <stop offset="28%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="60%" stop-color="#7dd3fc" stop-opacity="0.5" />
+      <!-- Sağa doğru süzülüp karanlıkta eriyen kuyruk -->
       <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0" />
     </linearGradient>
   </defs>
-  <path d="M0 2 Q250 0 500 2 Q250 4 0 2 Z" fill="url(#crystalGlow)" />
+  <!-- x=0'da 1.5px kalınlıkla başlayıp harflerin tam göbeğinden akan hat -->
+  <path d="M 0 1.25 Q 120 -0.5 500 2 Q 120 4.5 0 2.75 Z" fill="url(#crystalGlow)" />
 </svg>
