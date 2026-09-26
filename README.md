@@ -42,7 +42,7 @@
 
 <br/>
 
-### ✦ &nbsp; ABOUT ME<img src="crystal-flare.svg" width="420" height="6" align="absmiddle" />
+### ✦ &nbsp; ABOUT ME&nbsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
 <br/>
 
 ✦ &nbsp; <img src="https://img.shields.io/badge/Computer_Engineering_%26_Architecture-5b21b6?style=plastic" alt="Computer Engineering & Architecture" />  
