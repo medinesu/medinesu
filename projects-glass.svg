@@ -5,17 +5,30 @@
       <feGaussianBlur stdDeviation="60" />
     </filter>
 
-    <!-- Derin Uzay Cam Zemin Degradesi -->
+    <!-- Derin Uzay Dış Cam Zemin Degradesi -->
     <linearGradient id="deep-space-glass" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#070a13" stop-opacity="0.96" />
       <stop offset="100%" stop-color="#0b1120" stop-opacity="0.98" />
     </linearGradient>
 
-    <!-- Kristal Mor - Buzul Mavisi Kılcal Çerçeve -->
+    <!-- Dış Kapsül Kılcal Çerçeve -->
     <linearGradient id="polaris-border" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#5b21b6" stop-opacity="0.75" />
-      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.30" />
-      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.65" />
+      <stop offset="0%" stop-color="#5b21b6" stop-opacity="0.80" />
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0.70" />
+    </linearGradient>
+
+    <!-- İç Kartlar: Işık Kırılmalı Belirgin Cam Çerçeve (Edge-Light) -->
+    <linearGradient id="inner-card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.65" />
+      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#5b21b6" stop-opacity="0.55" />
+    </linearGradient>
+
+    <!-- İç Kartlar: Katman Derinliği Veren Dolgu -->
+    <linearGradient id="inner-card-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.70" />
+      <stop offset="100%" stop-color="#0b1324" stop-opacity="0.85" />
     </linearGradient>
   </defs>
 
@@ -35,7 +48,7 @@
     .lang-text  { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 500; fill: #cbd5e1; }
   </style>
 
-  <!-- 1. Ana Cam Kapsül -->
+  <!-- 1. Dış Cam Kapsül -->
   <rect x="1" y="1" width="818" height="438" rx="16" fill="url(#deep-space-glass)" stroke="url(#polaris-border)" stroke-width="1.2" />
 
   <!-- 2. Arka Plan Nebula Işık Küreleri -->
@@ -43,20 +56,13 @@
   <circle cx="730" cy="360" r="150" fill="#0ea5e9" class="nebula-glow" filter="url(#cosmic-glow)" />
   <circle cx="410" cy="220" r="110" fill="#5b21b6" opacity="0.14" filter="url(#cosmic-glow)" />
 
-  <!-- 3. Gökyüzü & Kutupyıldızı Parıltıları (Sparkling Stars) -->
-  <!-- Yıldız 1 -->
+  <!-- 3. Gökyüzü & Kutupyıldızı Parıltıları -->
   <path class="twinkle-slow" d="M 180 40 Q 180 45 185 45 Q 180 45 180 50 Q 180 45 175 45 Q 180 45 180 40 Z" fill="#7dd3fc" />
-  <!-- Yıldız 2 -->
   <path class="twinkle-fast" d="M 680 48 Q 680 53 685 53 Q 680 53 680 58 Q 680 53 675 53 Q 680 53 680 48 Z" fill="#c084fc" />
-  <!-- Yıldız 3 (Mini) -->
   <circle cx="390" cy="62" r="1.5" fill="#f8fafc" class="twinkle-offset" />
-  <!-- Yıldız 4 -->
   <path class="twinkle-offset" d="M 405 225 Q 405 230 410 230 Q 405 230 405 235 Q 405 230 400 230 Q 405 230 405 225 Z" fill="#7dd3fc" />
-  <!-- Yıldız 5 (Mini) -->
   <circle cx="760" cy="210" r="1.5" fill="#38bdf8" class="twinkle-slow" />
-  <!-- Yıldız 6 -->
   <path class="twinkle-fast" d="M 60 405 Q 60 409 64 409 Q 60 409 60 413 Q 60 409 56 409 Q 60 409 60 405 Z" fill="#7dd3fc" />
-  <!-- Yıldız 7 (Mini) -->
   <circle cx="430" cy="408" r="1.5" fill="#e2e8f0" class="twinkle-slow" />
 
   <!-- 4. Üst Telemetri Başlığı -->
@@ -64,7 +70,7 @@
 
   <!-- ==================== KART 1: Kar Tanesi ==================== -->
   <g transform="translate(35, 70)">
-    <rect width="365" height="155" rx="12" fill="#0f172a" fill-opacity="0.45" stroke="#334155" stroke-width="1" stroke-opacity="0.5" />
+    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.2" />
     <text x="18" y="32" class="repo-title">❄️ kar-tanesi-local-rag-assistant</text>
     <text x="18" y="62" class="repo-desc">Privacy-first, local retrieval-augmented generation</text>
     <text x="18" y="80" class="repo-desc">assistant for deterministic document queries.</text>
@@ -74,7 +80,7 @@
 
   <!-- ==================== KART 2: Websitem ==================== -->
   <g transform="translate(420, 70)">
-    <rect width="365" height="155" rx="12" fill="#0f172a" fill-opacity="0.45" stroke="#334155" stroke-width="1" stroke-opacity="0.5" />
+    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.2" />
     <text x="18" y="32" class="repo-title">🌐 websitem</text>
     <text x="18" y="62" class="repo-desc">Full-stack dynamic web interface backed by a</text>
     <text x="18" y="80" class="repo-desc">relational database and responsive UI layouts.</text>
@@ -84,7 +90,7 @@
 
   <!-- ==================== KART 3: C Programming ==================== -->
   <g transform="translate(35, 245)">
-    <rect width="365" height="155" rx="12" fill="#0f172a" fill-opacity="0.45" stroke="#334155" stroke-width="1" stroke-opacity="0.5" />
+    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.2" />
     <text x="18" y="32" class="repo-title">⚙️ C-Programming-Homeworks</text>
     <text x="18" y="62" class="repo-desc">Curated algorithmic solutions, manual memory</text>
     <text x="18" y="80" class="repo-desc">allocation pipelines, and system routines.</text>
@@ -94,7 +100,7 @@
 
   <!-- ==================== KART 4: Java OOP ==================== -->
   <g transform="translate(420, 245)">
-    <rect width="365" height="155" rx="12" fill="#0f172a" fill-opacity="0.45" stroke="#334155" stroke-width="1" stroke-opacity="0.5" />
+    <rect width="365" height="155" rx="12" fill="url(#inner-card-bg)" stroke="url(#inner-card-border)" stroke-width="1.2" />
     <text x="18" y="32" class="repo-title">☕ Java-OOP-Mini-Projects</text>
     <text x="18" y="62" class="repo-desc">Object-oriented architecture implementations</text>
     <text x="18" y="80" class="repo-desc">focusing on clean logic and design patterns.</text>
