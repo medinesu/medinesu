@@ -71,7 +71,7 @@
 
 <br/><br/><br/>
 
-### ✦ &nbsp; TECH STACK &nbsp;&nbsp;<img src="crystal-line.svg?v=3" width="460" height="4" align="absmiddle" />
+### ✦ &nbsp; TECH STACK &nbsp;&nbsp;<img src="crystal-line.svg?v=3" width="380" height="4" align="absmiddle" />
 
 <br/>
 
