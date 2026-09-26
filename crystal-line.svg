@@ -1,16 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 12" width="500" height="12" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 16" width="500" height="16" fill="none">
   <defs>
     <linearGradient id="crystalGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <!-- Sol ucu kelimeye doğru erkenden uzatan kısım -->
       <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0" />
-      <stop offset="8%" stop-color="#7dd3fc" stop-opacity="0.6" />
-      <!-- Işığın parlak kristal merkezi -->
-      <stop offset="30%" stop-color="#ffffff" stop-opacity="0.95" />
-      <stop offset="65%" stop-color="#7dd3fc" stop-opacity="0.4" />
-      <!-- Sağa doğru süzülen uzun kuyruk -->
+      <stop offset="15%" stop-color="#7dd3fc" stop-opacity="0.5" />
+      <!-- BEYAZ IŞIK MERKEZİ: %45 yapılarak sağa kaydırıldı -->
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="75%" stop-color="#7dd3fc" stop-opacity="0.4" />
       <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0" />
     </linearGradient>
   </defs>
-  <!-- Harflerin dikey merkezine kilitli kalan kristal hat -->
+  <!-- Çizgi y=2 seviyesinde tutularak altındaki 14 piksellik şeffaflıkla yukarı kaldırıldı -->
   <path d="M0 2 Q250 0 500 2 Q250 4 0 2 Z" fill="url(#crystalGlow)" />
 </svg>
