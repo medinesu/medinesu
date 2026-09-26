@@ -1,17 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 4" width="500" height="4" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 6" width="450" height="6" fill="none">
   <defs>
-    <linearGradient id="crystalGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <!-- Kelimenin hemen bitiminde başlayan net buzul mavisi -->
-      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.85" />
-      <stop offset="15%" stop-color="#7dd3fc" stop-opacity="0.95" />
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <!-- x=0: Harfin bittiği pikselde anında başlayan net buzul mavisi -->
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.9" />
+      <stop offset="12%" stop-color="#7dd3fc" stop-opacity="0.95" />
       <!-- Parlak kristal ışık merkezi -->
+      <stop offset="20%" stop-color="#ffffff" stop-opacity="1" />
       <stop offset="28%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.95" />
-      <stop offset="60%" stop-color="#7dd3fc" stop-opacity="0.5" />
-      <!-- Sağa doğru süzülüp karanlıkta eriyen kuyruk -->
+      <stop offset="45%" stop-color="#7dd3fc" stop-opacity="0.5" />
+      <!-- Sağa doğru süzülüp kaybolan uzun kuyruk -->
       <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0" />
     </linearGradient>
   </defs>
-  <!-- x=0'da 1.5px kalınlıkla başlayıp harflerin tam göbeğinden akan hat -->
-  <path d="M 0 1.25 Q 120 -0.5 500 2 Q 120 4.5 0 2.75 Z" fill="url(#crystalGlow)" />
+  <!-- Harfe sıfır mesafeden bağlanan kesintisiz kılcal hat -->
+  <line x1="0" y1="3" x2="450" y2="3" stroke="url(#lineGrad)" stroke-width="1.5" />
+  <!-- Kristal parlama odağı (harften hemen sonra göz alan elmas parıltı) -->
+  <path d="M 45 3 Q 75 0.5 105 3 Q 75 5.5 45 3 Z" fill="#ffffff" opacity="0.95" />
 </svg>
