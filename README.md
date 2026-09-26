@@ -42,7 +42,7 @@
 
 <br/>
 
-## ABOUT ME
+### ✦ &nbsp; ABOUT ME&nbsp;<img src="crystal-line.svg" width="300" height="4" align="middle" />
 
 <br/>
 
