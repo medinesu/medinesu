@@ -71,7 +71,7 @@
 
 <br/><br/><br/>
 
-### ✦ &nbsp; FEATURED PROJECTS&hairsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
+### ✦ &nbsp; TECH STACK&hairsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
 
 <br/>
 
@@ -97,10 +97,27 @@
 
 <br/>
 
-* ❄️ **[Kar Tanesi — Local RAG Assistant](https://github.com/medinesu/kar-tanesi-local-rag-assistant)** — Local RAG-based AI assistant built with Python & Streamlit.
-* ☕ **[Java OOP Mini Projects](https://github.com/medinesu/Java-OOP-Mini-Projects)** — Core Object-Oriented Programming (OOP) principles and algorithmic logic.
-* ⚙️ **[C Programming Homeworks](https://github.com/medinesu/C-Programming-Homeworks)** — Curated C programming assignments and algorithmic solutions.
-* 🌐 **[Websitem](https://github.com/medinesu/websitem)** — Full-stack web development project powered by PHP & MySQL.
+✦ &nbsp; <img src="https://img.shields.io/badge/Applied_AI-Kar_Tanesi-5b21b6?style=plastic" alt="Kar Tanesi" /> &nbsp; <img src="https://img.shields.io/badge/Python_%7C_Streamlit-0284c7?style=flat-square" alt="Tech" />  
+> [**Kar Tanesi — Local RAG Assistant**](https://github.com/medinesu/kar-tanesi-local-rag-assistant)  
+> Privacy-first, local retrieval-augmented generation assistant designed for deterministic document query workflows.
+
+<br/>
+
+✦ &nbsp; <img src="https://img.shields.io/badge/Core_Systems-Java_OOP_Mini_Projects-5b21b6?style=plastic" alt="Java OOP Projects" /> &nbsp; <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square" alt="Tech" />  
+> [**Java OOP Mini Projects**](https://github.com/medinesu/Java-OOP-Mini-Projects)  
+> Object-oriented architecture implementations focusing on clean domain logic, structural design patterns, and algorithmic performance.
+
+<br/>
+
+✦ &nbsp; <img src="https://img.shields.io/badge/Low_Level-C_Programming_Homeworks-5b21b6?style=plastic" alt="C Programming" /> &nbsp; <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square" alt="Tech" />  
+> [**C Programming Homeworks**](https://github.com/medinesu/C-Programming-Homeworks)  
+> Curated algorithmic solutions, manual memory management pipelines, and fundamental data structure routines.
+
+<br/>
+
+✦ &nbsp; <img src="https://img.shields.io/badge/Full_Stack-Websitem-5b21b6?style=plastic" alt="Websitem" /> &nbsp; <img src="https://img.shields.io/badge/PHP_%7C_MySQL-4479A1?style=flat-square" alt="Tech" />  
+> [**Websitem**](https://github.com/medinesu/websitem)  
+> Full-stack dynamic web interface backed by a relational database model.
 
 <br/><br/>
 
