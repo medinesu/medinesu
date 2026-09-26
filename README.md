@@ -71,7 +71,7 @@
 
 <br/><br/><br/>
 
-### ✦ &nbsp; TECH STACK&hairsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
+### ✦ &nbsp; FEATURED PROJECTS&hairsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
 
 <br/>
 
