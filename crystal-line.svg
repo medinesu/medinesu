@@ -1,17 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 4" width="500" height="4" fill="none">
   <defs>
     <linearGradient id="crystalGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <!-- x=0: Harfin bittiği ilk pikselde başlayan net buzul mavisi -->
-      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.9" />
-      <stop offset="15%" stop-color="#7dd3fc" stop-opacity="1" />
+      <!-- x=0: Harfin bittiği yerde başlayan net buzul mavisi -->
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.85" />
+      <stop offset="10%" stop-color="#7dd3fc" stop-opacity="0.95" />
+      <!-- Parlak kristal ışık merkezi -->
       <stop offset="25%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="35%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="60%" stop-color="#7dd3fc" stop-opacity="0.5" />
+      <stop offset="40%" stop-color="#7dd3fc" stop-opacity="0.5" />
+      <!-- Sağa doğru süzülen 500px uzun kuyruk -->
       <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0" />
     </linearGradient>
   </defs>
-  <!-- Harfin dibinden sıfır boşlukla başlayan 1.5px kılcal hat -->
-  <line x1="0" y1="2" x2="500" y2="2" stroke="url(#crystalGlow)" stroke-width="1.5" />
-  <!-- Kristal parlama elması -->
-  <path d="M 60 2 Q 110 0 160 2 Q 110 4 60 2 Z" fill="#ffffff" opacity="0.9" />
+  <!-- 0'dan 500'e kadar kesintisiz, asla kaybolmayan kristal hat -->
+  <path d="M 0 1.4 Q 110 0 500 2 Q 110 4 0 2.6 Z" fill="url(#crystalGlow)" />
 </svg>
