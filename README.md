@@ -97,7 +97,7 @@
 
 <br/><br/>
 
-<img src="projects-glass.svg" width="77%" alt="System Directory" />
+<img src="projects-glass.svg?v=2" width="84%" alt="System Directory" />
 
 <br/><br/><br/>
 
