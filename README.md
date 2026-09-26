@@ -42,7 +42,7 @@
 
 <br/>
 
-### ✦ &nbsp; ABOUT ME &nbsp;<img src="crystal-line.svg?v=2" width="420" height="4" align="absmiddle" />
+### ✦ &nbsp; ABOUT ME &nbsp;&nbsp;<img src="crystal-line.svg?v=3" width="380" height="4" align="absmiddle" />
 
 <br/>
 
@@ -71,7 +71,7 @@
 
 <br/><br/><br/>
 
-### ✦ &nbsp; TECH STACK&hairsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
+### ✦ &nbsp; TECH STACK &nbsp;&nbsp;<img src="crystal-line.svg?v=3" width="380" height="4" align="absmiddle" />
 
 <br/>
 
@@ -93,7 +93,7 @@
 
 <br/><br/><br/>
 
-### ✦ &nbsp; FEATURED PROJECTS&hairsp;<img src="crystal-line.svg" width="420" height="4" align="absmiddle" />
+### ✦ &nbsp; FEATURED PROJECTS &nbsp;&nbsp;<img src="crystal-line.svg?v=3" width="380" height="4" align="absmiddle" />
 
 <br/>
 
