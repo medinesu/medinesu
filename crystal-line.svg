@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 4" width="500" height="4" fill="none">
   <defs>
     <linearGradient id="crystalGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <!-- Harften hemen sonra yumuşakça süzülen buzul mavisi nefes payı -->
+      <!-- %0'da görünmez başlar, %6'dan sonra zarifçe belirir (harfe asla yapışmaz) -->
       <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0" />
       <stop offset="6%" stop-color="#7dd3fc" stop-opacity="0.8" />
-      <!-- Kristal parıltı merkezi -->
+      <!-- Parlak kristal ışık merkezi -->
       <stop offset="28%" stop-color="#ffffff" stop-opacity="1" />
       <stop offset="55%" stop-color="#7dd3fc" stop-opacity="0.45" />
-      <!-- Sağa doğru süzülen uzun kuyruk -->
+      <!-- Sağa doğru süzülen 500px uzun kuyruk -->
       <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0" />
     </linearGradient>
   </defs>
-  <!-- Harflerin dikey merkezinden akan 500px kesintisiz hat -->
+  <!-- Harflerin dikey merkezinden süzülen hat -->
   <path d="M0 2 Q250 0 500 2 Q250 4 0 2 Z" fill="url(#crystalGlow)" />
 </svg>
