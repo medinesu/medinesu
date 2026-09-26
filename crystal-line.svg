@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 4" width="500" height="4" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 4" width="450" height="4" fill="none">
   <defs>
-    <linearGradient id="crystalGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <!-- %0'da görünmez başlar, %6'dan sonra zarifçe belirir (harfe asla yapışmaz) -->
-      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0" />
-      <stop offset="6%" stop-color="#7dd3fc" stop-opacity="0.8" />
-      <!-- Parlak kristal ışık merkezi -->
-      <stop offset="28%" stop-color="#ffffff" stop-opacity="1" />
-      <stop offset="55%" stop-color="#7dd3fc" stop-opacity="0.45" />
-      <!-- Sağa doğru süzülen 500px uzun kuyruk -->
-      <stop offset="100%" stop-color="#7dd3fc" stop-opacity="0" />
+    <linearGradient id="crystalWhite" x1="0%" y1="0%" x2="100%" y2="0%">
+      <!-- Sol uç: Görünmez iğne ucu -->
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="20%" stop-color="#ffffff" stop-opacity="0.3" />
+      <!-- Orta: Parlak saf beyaz kristal merkezi -->
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="80%" stop-color="#ffffff" stop-opacity="0.3" />
+      <!-- Sağ uç: Görünmez iğne ucu -->
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
     </linearGradient>
   </defs>
-  <!-- Harflerin dikey merkezinden süzülen hat -->
-  <path d="M0 2 Q250 0 500 2 Q250 4 0 2 Z" fill="url(#crystalGlow)" />
+  <!-- İki ucu da incecik (0px), ortası hafif dolgun (3.6px) kristal hat -->
+  <path d="M 0 2 Q 225 0.2 450 2 Q 225 3.8 0 2 Z" fill="url(#crystalWhite)" />
 </svg>
