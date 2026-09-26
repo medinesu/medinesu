@@ -99,14 +99,10 @@
 
 <img src="projects-glass.svg?v=2" width="84%" alt="System Directory" />
 
-<br/><br/><br/>
-
----
+<br/>
 
 <div align="center">
-  <br/>
-  <font color="#7dd3fc" size="2">✦</font> &nbsp; 
-  <font color="#94a3b8" size="3"><i>Polaris: The Unfailing Compass in an Orbit of Chaos</i></font> 
-  &nbsp; <font color="#7dd3fc" size="2">✦</font>
+  <img src="cosmic-line.svg" width="84%" alt="Divider" />
   <br/><br/>
+  <font color="#7dd3fc" size="2">✦</font> &nbsp; <font color="#94a3b8" size="3"><i>Polaris: The Unfailing Compass in an Orbit of Chaos</i></font> &nbsp; <font color="#7dd3fc" size="2">✦</font>
 </div>
