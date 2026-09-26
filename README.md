@@ -97,7 +97,7 @@
 
 <br/><br/>
 
-<img src="https://github-stats-xi-six.vercel.app/api/top-repos?user=medinesu&theme=glass" width="70%" alt="System Directory" />
+<img src="projects-glass.svg" width="77%" alt="System Directory" />
 
 <br/><br/><br/>
 
